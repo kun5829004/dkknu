@@ -302,6 +302,7 @@ main {
 
 .main_Contents img {
 	width: 100%;
+	height: auto;
 	border-radius: 10px;
 }
 
