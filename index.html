@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>DKKN universe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/dkknfav.svg" type="image/svg+xml">
+        <link rel="icon" href="img/dkknfav.png" type="image/png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <!--ヘッダーここから-->
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/dkknu01.svg" alt="DKKN universe">
+                </a>
+            </div>
+            <nav class="menubar header__nav" id="js-nav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="guideline.html">Guideline</a></li>
+                    <li><a href="contents.html">Contents</a></li>
+                    <li><a href="image.html">Image</a></li>
+                </ul>
+            </nav>
+            <button class="header_hamburder hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+        <!--ヘッダーここまで-->
+
+        <!--メインコンテンツここから-->
+        <main>
+            <div class="main_Contents">
+                <img src="" id="imageArea" alt="トップ画像">
+                <p>Wellcome to <span class="bold">DKKN</span>!!</p>
+            </div>
+        </main>
+        <!--メインコンテンツここまで-->
+    
+        <!--フッターここから-->
+        <footer>
+            <div class="copyright">
+                <p>2024 打理尾 DKKN universe</p>
+            </div>
+        </footer>
+        <!--フッターここまで-->
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        const imageArea = document.getElementById('imageArea');
+
+        //画像のパスを配列に格納
+        const images = [
+            'img/top01.webp',
+            'img/top02.webp',
+            'img/top03.webp'
+        ];
+        
+        //乱数を生成して画像を選択
+        const imageNo = Math.floor(Math.random() * images.length);
+        imageArea.src = images[imageNo];
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+    </style>
+        
+</body>
+</html>
