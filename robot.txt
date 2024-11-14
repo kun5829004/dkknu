@@ -1,0 +1,7 @@
+User-agent:*
+Dissallow: /guideline.html
+Dissallow: /contents.html
+Dissallow: /image.html
+Dissallow: /template.html
+Allow: /index.html
+Allow: /about.html
