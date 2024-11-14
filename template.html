@@ -4,8 +4,12 @@
         <meta charset="UTF-8">
         <title>DKKN universe</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex,noarchive,nofollow,noimageindex">
+        <link rel="icon" href="img/dkknfav.svg" type="image/svg+xml">
+        <link rel="icon" href="img/dkknfav.png" type="image/png">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
     </head>
 
 <body>
@@ -14,7 +18,7 @@
         <header>
             <div class="logo">
                 <a href="index.html">
-                    <img src="img/dkknu01.png" alt="DKKN universe">
+                    <img src="img/dkknu01.svg" alt="DKKN universe" width="500" height="174">
                 </a>
             </div>
             <nav class="menubar header__nav" id="js-nav">
@@ -22,7 +26,7 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="guideline.html">Guideline</a></li>
                     <li><a href="contents.html">Contents</a></li>
-                    <li><a href="#">Image</a></li>
+                    <li><a href="image.html">Image</a></li>
                 </ul>
             </nav>
             <button class="header_hamburder hamburger" id="js-hamburger">
@@ -43,6 +47,18 @@
                 <p>テキストテキストテキストテキスト</p>
                 <p><span class="bold">強調テキスト</span>普通のテキスト</p>
                 <p><span class="bold_Importants">重要テキスト</span></p>
+                <a class="button_Parsonal button01" href="#">ボタン01</a>
+                <a class="button_Parsonal button02" href="#">ボタン02</a>
+                <a class="button_Parsonal button03" href="#">ボタン03</a>
+                <div class="image_Gallery">
+                    <a href="img/milin-1.webp" data-lightbox="milin_test"><img src="img/milin-1.webp" alt="打世 美麟 Milin Uchise"></a>
+                    <a href="img/milin-1.webp" data-lightbox="milin_test"><img src="img/milin-1.webp" alt="打世 美麟 Milin Uchise"></a>
+                    <a href="img/milin-1.webp" data-lightbox="milin_test"><img src="img/milin-1.webp" alt="打世 美麟 Milin Uchise"></a>
+                </div>
+                <div class="image_Gallery">
+                    <a href="img/cd_web.webp" data-lightbox="dario_kun"><img src="img/cd_web.webp" alt="可連 ダリヲ CD"></a>
+                    <a href="img/dario_web.webp" data-lightbox="dario_kun"><img src="img/dario_web.webp" alt="この世界の打理尾君 dario_kun"></a>
+                </div>
             </div>
         </main>
         <!--メインコンテンツここまで-->
@@ -57,6 +73,7 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
     </style>
