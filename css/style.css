@@ -146,6 +146,7 @@ header {
 	display: block;
 	max-width: 130px;
 	width: 130px;
+	height: auto;
 	filter: brightness(0) saturate(100%) invert(0%) sepia(43%) saturate(2370%) hue-rotate(121deg) brightness(95%) contrast(94%);
 }
 @media (prefers-color-scheme: dark) {
