@@ -61,7 +61,7 @@ h3 {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	margin: 15px 0;
+	margin: 20px 0 0;
 	padding: 15px 0;
 	border-radius: 10px;
 	transition: .3s;
@@ -95,7 +95,7 @@ h3 {
 @media screen and (min-width:960px) {
 	.button_Parsonal {
 		width: auto;
-		margin: 10px 10px 10px 0;
+		margin: 20px 10px 0 0;
 		padding: 10px 20px;
 	}
 }
