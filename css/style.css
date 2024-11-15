@@ -318,20 +318,20 @@ main {
 	width: 150px;
     border-radius: 400px;
 }
-.about_Profile p {margin: 0 0 10px;}
+.about_Profile p {margin: 0 0 20px;}
 
 .about_What p {margin: 20px 0;}
 
 .about_Social img {
-	margin: 20px 10px;
-	width: 40px;
+	margin: 0 10px;
+	width: 35px;
 	border-radius: 0;
 	filter: brightness(0) saturate(100%) invert(17%) sepia(4%) saturate(19%) hue-rotate(38deg) brightness(94%) contrast(89%);
 	
 }
 @media screen and (min-width:960px) {
 	.about_Social img {
-		margin: 10px;
+		margin: 0 10px;
 		width: 30px;
 	}
 }
