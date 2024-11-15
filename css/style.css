@@ -385,6 +385,7 @@ footer {
 	background: #fff;
 	text-align: center;
 	font-size: 0.9rem;
+	padding: 10px 0 20px;
 }
 @media (prefers-color-scheme: dark) {
     footer {
@@ -393,4 +394,4 @@ footer {
     }
 }
 
-.copyright {padding: 5px 15px;}
+.copyright {padding: 0 15px;}
