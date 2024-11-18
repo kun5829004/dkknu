@@ -350,13 +350,29 @@ main {
 }
 
 /*コンテンツ設定*/
-.contents_Image a{transition: .3s;}
-.contents_Image a:hover {opacity: 0.6;}
-.contents_Image a:active {
+.contents_Image {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-auto-flow: row dense;
+	gap: 10px 10px;
+	margin: 0;
+	transition: .3s;
+}
+@media screen and (min-width:960px) {
+	.contents_Image {
+		grid-template-columns: repeat(2, 1fr);	
+	}
+}
+.contents_Image img {
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+}
+.contents_Image img:hover {opacity: 0.6;}
+.contents_Image img:active {
 	opacity: 0.7;
 	transition: none;
 }
-.contents_Image img {margin: 0 0 15px;}
 
 /*ギャラリー設定*/
 .image_Gallery {
