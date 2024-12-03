@@ -279,6 +279,27 @@ header {
     transform: rotate(-45deg);
 }
 
+/*パンくずリスト設定*/
+.breadcrumb {
+	margin: 20px auto;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.breadcrumb a {color: #0a88cc;}
+.breadcrumb a:hover {color: #085781;}
+
+.breadcrumb li:not(:last-of-type)::after {
+	content: "›";
+	margin: 0 .6em; /* 記号の左右の余白 */
+	color: #777; /* 記号の色 */
+}
+
+@media screen and (min-width:960px) {
+	.breadcrumb {width: 60%;}
+}
+
 /*メインコンテンツ共通設定*/
 main {
 	margin: 80px 0 0;
