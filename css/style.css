@@ -191,7 +191,8 @@ header {
 		border-radius: 10px;
     }
 	.menubar a:hover {
-		background-color: #333;
+		background-color: #fff;
+        color: #333;
 	}
 }
 
@@ -287,8 +288,8 @@ header {
 	flex-wrap: wrap;
 	list-style: none;
 }
-.breadcrumb a {color: #0a88cc;}
-.breadcrumb a:hover {color: #085781;}
+.breadcrumb a {color: #1c6eee;}
+.breadcrumb a:hover {color: #103d84;}
 
 .breadcrumb li:not(:last-of-type)::after {
 	content: "›";
@@ -298,6 +299,9 @@ header {
 
 @media screen and (min-width:960px) {
 	.breadcrumb {width: 60%;}
+}
+@media (prefers-color-scheme: dark) {
+    .breadcrumb a {color: #7cacf8;}
 }
 
 /*メインコンテンツ共通設定*/
