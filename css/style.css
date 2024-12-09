@@ -72,7 +72,7 @@ h3 {
 	color: #fff;
 }
 .button02 {
-	background: #0c9113;
+	background: #1c6eee;
 	color: #fff;
 }
 .button03 {
@@ -104,6 +104,10 @@ h3 {
         background: #fff;
         color: #333;
     }
+	.button02 {
+		background: #7cacf8;
+		color: #333;
+	}
 	.button03 {
 		outline: 2px solid #fff;
 		outline-offset: -2px;
