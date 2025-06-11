@@ -132,16 +132,16 @@ header {
     left: 0;
     right: 0;
 	display: flex;
-	background: #fff;
+	background: #ffffffdb;
+	backdrop-filter: blur(10px);
 	z-index: 999;
-	opacity: 0.9;
 }
 @media screen and (min-width:960px) {
 	header {padding: 15px 7%;}
 }
 @media (prefers-color-scheme: dark) {
     header {
-        background: #222;
+        background: #222222db;
         color: #fff;
     }
 }
@@ -355,9 +355,15 @@ main {
 	margin: 0 10px;
 	width: 35px;
 	border-radius: 0;
-	filter: brightness(0) saturate(100%) invert(17%) sepia(4%) saturate(19%) hue-rotate(38deg) brightness(94%) contrast(89%);
-	
+	filter: brightness(0) saturate(100%) invert(17%) sepia(4%) saturate(19%) hue-rotate(38deg) brightness(94%) contrast(89%);	
 }
+.about_Social_long img {
+	margin: 0 10px;
+	width: 150px;
+	border-radius: 0;
+	filter: brightness(0) saturate(100%) invert(17%) sepia(4%) saturate(19%) hue-rotate(38deg) brightness(94%) contrast(89%);
+}
+
 @media screen and (min-width:960px) {
 	.about_Social img {
 		margin: 0 10px;
