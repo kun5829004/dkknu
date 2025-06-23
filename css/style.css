@@ -320,6 +320,7 @@ main {
 	border: 1px #ddd solid;
 	border-radius: 10px;	
 }
+.main_Contents hr {border-top: 1px  #ccc dashed;}
 @media screen and (min-width:960px) {
 	.main_Contents {
 		padding: 15px;
@@ -328,6 +329,7 @@ main {
 }
 @media (prefers-color-scheme: dark) {
     .main_Contents {border: 1px #444 solid;}
+	.main_Contents hr {border-top: 1px  #444 dashed;}
 }
 
 .main_Contents img {
