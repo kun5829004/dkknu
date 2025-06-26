@@ -8,6 +8,7 @@
         <link rel="icon" href="img/dkknfav.png" type="image/png">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
         </style>
@@ -61,8 +62,7 @@
                         <a href="https://www.youtube.com/@dkknuniverse9086" target="_blank" rel="noopener noreferrer"><img src="img/yt_logo.svg" alt="Youtube_@dkknuniverse9086" width="200" height="200"></a>
                     </div>
                 </div>
-            </div>
-            <div class="main_Contents">
+                <hr>
                 <div class="about_Profile">
                     <img src="img/cd_web.webp" alt="可連ダリヲのアイコン" title="可連ダリヲのアイコン" width="300" height="300">
                     <h2>可連ダリヲ</h2>
@@ -78,10 +78,12 @@
             <div class="main_Contents">
                 <div class="about_What">
                     <h2>What's DKKN?</h2>
-                    <img src="img/dkkn_image01.webp" alt="マイクラで再現した土故過野市" title="マイクラで再現した土故過野市" width="1000" height="530">
+                    <div class="image_Gallery">
+                        <a href="img/dkkn_image01.webp" data-lightbox="What's_dkkn" data-title="マイクラで再現した土故過野市"><img src="img/dkkn_image01.webp" alt="マイクラで再現した土故過野市" title="マイクラで再現した土故過野市" width="1000" height="530"></a>
+                    <a href="img/dkkn_image02.webp" data-lightbox="What's_dkkn" data-title="マイクラで再現した土故過野市"><img src="img/dkkn_image02.webp" alt="マイクラで再現した土故過野市" title="マイクラで再現した土故過野市" width="1000" height="530"></a>
+                    </div>
                     <p>DKKNとは俺の創る大半のコンテンツの舞台である不思議な市『土故過野市』が由来です（一部作品を除く）。
                         ローマ字に変換して（dokokano）子音だけ残すと（DoKoKaNo）DKKNになります。</p>
-                        <img src="img/dkkn_image02.webp" alt="マイクラで再現した土故過野市" title="マイクラで再現した土故過野市" width="1000" height="530">
                     <p>土故過野市はコンテンツによって設定が異なったり、世界観に関する描写が少なかったりしますが、
                         基本的には『高度かつ未知なる技術を持った超未来的なヤベー町』がコンセプトになっています。</p>
                 </div>   
@@ -98,6 +100,7 @@
         <!--フッターここまで-->
     </div>
 
-    <script src="js/main.js"></script>    
+    <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>  
 </body>
 </html>
