@@ -37,7 +37,6 @@ ul,li {list-style: none;}
 :root {
 	--light_Link: #1c6eee;
 	--dark_Link: #7cacf8;
-	--Not_found: center;
 }
 
 /*テキスト関連：見出し*/
@@ -441,13 +440,6 @@ main {
 .image_Gallery img:active {
 	opacity: 0.7;
 	transition: none;
-}
-
-/*404設定*/
-.nf_Setting {text-align: var(--Not_found);}
-.nf_Setting img {
-	width: 50%;
-	margin: 40px 0;
 }
 
 /*フッター設定*/
